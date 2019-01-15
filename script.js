@@ -14,4 +14,5 @@ function startBar() {
       document.getElementById("label").innerHTML = widthLineBar + '%';
     }
   }
+  
 }
