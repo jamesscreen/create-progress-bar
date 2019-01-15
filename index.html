@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Progress Bar</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <h1>Создаем прогресс-бар</h1>
+  <h2>Прогресс-бар из блоков div</h2>
+  <p>Первый блок представляет собой контейнер (коробку) в котором находится другой блок. Внутренний блок будет постепенно увеличивать свою длинну за счет чего и будет </p>
+  
+  <div id="barBlock">
+    <div id="progressLine">
+      <div id="label">0%</div>
+    </div>
+  </div>
+  
+  <button id="btnProgress" onclick="startBar()">Start Progress Bar</button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
